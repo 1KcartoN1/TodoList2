@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(179, 204, 250);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.to-do-list {
+    padding: 20px 50px 10px 50px;
+    background-color: rgb(255, 234, 138);
+}
+
+#input {
+    border: solid, black, 1px;
+    width: 500px;
+    height: 45px;
+    background-color: rgb(222, 254, 228);
+    color: black;
+}
+
+::placeholder {
+    color: (50, 60, 29);
+
+}
+
+.btn {
+    height: 25px;
+    background-color: rgb(222, 171, 253);
+    border: none;
+}
+
+#btn {
+    height: 45px;
+    background-color: rgb(222, 171, 253);
+    border: none;
+    border: solid, 1px, rgb(202, 218, 247);
+    border-radius: 4px;
+}
+
+#btn:hover {
+    border: solid, 1px, cornflowerblue;
+    border-radius: 12px;
+    transition: 0.40s;
+}
+
+
+
+.modal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal__window {
+    background-color: #d59e5f;
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.modal__msg {
+    margin-bottom: 20px;
+    color: rgb(255, 238, 218);
+}
+
+#list {
+    list-style-type: none;
+
+
+}
+
+.item {
+    display: flex;
+    align-content: center;
+    padding: 8px;
+    background-color: rgb(193, 215, 255);
+    justify-content: space-between;
+    border: solid, black, 1px;
+    color: rgb(50, 60, 29);
+
+}
