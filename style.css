@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: rgb(179, 204, 250);
+    background-color: rgb(41, 42, 44);
 }
 
 .wrapper {
@@ -10,17 +10,32 @@ body {
 }
 
 
+.Sum-All {
+    color: #908b85;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(84, 82, 82);
+    border: solid;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
 .to-do-list {
     padding: 20px 50px 10px 50px;
-    background-color: rgb(255, 234, 138);
+    background-color: rgb(47, 49, 47);
+    display: flex;
+    align-items: center;
 }
 
 #input {
     border: solid, black, 1px;
     width: 500px;
     height: 45px;
-    background-color: rgb(222, 254, 228);
-    color: black;
+    background-color: rgb(35, 39, 35);
+    color: aliceblue;
 }
 
 ::placeholder {
@@ -36,7 +51,8 @@ body {
 
 #btn {
     height: 45px;
-    background-color: rgb(222, 171, 253);
+    color: rgb(117, 123, 123);
+    background-color: rgb(39, 36, 40);
     border: none;
     border: solid, 1px, rgb(202, 218, 247);
     border-radius: 4px;
@@ -62,7 +78,7 @@ body {
 }
 
 .modal__window {
-    background-color: #d59e5f;
+    background-color: #a99d8e;
     border-radius: 8px;
     text-align: center;
     padding: 20px;
@@ -83,10 +99,53 @@ body {
 .item {
     display: flex;
     align-content: center;
-    padding: 8px;
-    background-color: rgb(193, 215, 255);
+    padding: 8px 80px;
+    background-color: rgb(119, 126, 140);
     justify-content: space-between;
     border: solid, black, 1px;
     color: rgb(50, 60, 29);
+    margin: 20px;
 
+
+}
+
+li.item {
+    display: flex;
+    align-items: center;
+}
+
+p.Summa {
+    margin: 0px 25px;
+
+}
+
+
+span {
+    margin-right: 40px;
+    color: black;
+}
+
+.btn {}
+
+#input2 {
+    border: solid, black, 1px;
+    width: 500px;
+    height: 45px;
+    background-color: rgb(35, 39, 35);
+    color: aliceblue;
+}
+
+.select {
+    margin: 0px 30px 0px 10px;
+
+}
+
+#select__list {
+    width: 75px;
+    height: 30px;
+}
+
+.Currency {
+    color: aliceblue;
+    margin: 0px 10px;
 }

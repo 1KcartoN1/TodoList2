@@ -9,15 +9,35 @@
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="to-do-list">
-            <div class="inner-block" id="inn-block">
-                <input type="text" placeholder="Добавить задачу" id="input">
-                <button id="btn">Добавить</button>
 
+    <div class="wrapper">
+
+        <div class="to-do-list">
+            <div class="Sum-All">
+                <span id="enter__sum"></span>
+            </div>
+            <div class="inner-block" id="inn-block">
+                <input type="text" placeholder="Добавить наименование" id="input">
 
             </div>
             <ul class="do__list" id="list"></ul>
+
+            <div class="input__price">
+                <input type="text" placeholder="Добавить цену" id="input2">
+            </div>
+            <span class="sumAll"></span>
+            <ul class="do__list" id="list"></ul>
+            <div class="select">
+                <select name="Выбор валюты" id="select__list">
+                    <option id="$" value="$">$</option>
+                    <option id="₽" value="₽">₽</option>
+                    <option id="€" value="€">€</option>
+                </select>
+            </div>
+
+
+            <button id="btn">Добавить</button>
+
         </div>
         <div class="modal" id="modal">
             <div class="modal__window">
